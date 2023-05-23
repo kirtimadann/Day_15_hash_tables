@@ -26,7 +26,7 @@ public class MyMapNode<K,V> implements INode<K> {
 
     @Override
     public void setKey(K key) {
-        this.key=key;
+        this.key=key ;
     }
 
     @Override

@@ -35,6 +35,6 @@ public class MyNode<K> implements INode<K> {
         nodeString.append(key).append("->");
         if (next != null)
             nodeString.append(" , ").append(next);
-        return nodeString.toString() ;
+        return nodeString.toString();
     }
 }

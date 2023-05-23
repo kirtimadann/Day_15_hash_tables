@@ -61,9 +61,16 @@ public class HashTable<K,V> {
         }
     }
 
+    public void delete(K string) {
+        int indexValue = getIndex(string);
+        MyLinkedList<K> myLinkedList1 = myBucketArray.get(indexValue);
+        myLinkedList1.deletion(string);
+    }
+
     @Override
     public String toString() {
         return  ""+ myBucketArray ;
 
     }
+
 }

@@ -18,6 +18,15 @@ public class HashTableMain {
         }
         System.out.println(hashTable1);
 
+        String str1 = "avoidable";
+        for (String string:array) {
+            if(string.equals(str1)){
+                hashTable1.delete(string);
+                System.out.println(hashTable1);
+            }
+
+        }
+
 
     }
 }

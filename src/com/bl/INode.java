@@ -2,7 +2,7 @@ package com.bl;
 
 public interface INode<K> {
 
-    K getKey();
+    K getKey() ;
 
     void setKey(K key) ;
 
