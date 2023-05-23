@@ -43,7 +43,7 @@ public class MyMapNode<K,V> implements INode<K> {
     }
 
     public void setNext(INode<K> next) {
-        this.next=(MyMapNode<K,V>) next;
+        this.next=(MyMapNode<K,V>) next ;
     }
 
     public String toString() {

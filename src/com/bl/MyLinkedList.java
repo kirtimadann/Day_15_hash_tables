@@ -43,7 +43,7 @@ public class MyLinkedList<K> {
         }
         while (temp != null) {
             System.out.print(temp.getKey() + " ");
-            temp = temp.getNext();
+            temp = temp.getNext() ;
         }
     }
 

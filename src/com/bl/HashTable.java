@@ -1,6 +1,4 @@
 package com.bl;
-import com.bl.MyLinkedList;
-
 import java.util.Hashtable;
 import java.util.ArrayList;
 import java.util.List;
@@ -57,7 +55,7 @@ public class HashTable<K,V> {
             if (searchNode==null){
                 return null;
             }else {
-                return searchNode.getValue();
+                return searchNode.getValue() ;
             }
 
         }

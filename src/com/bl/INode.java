@@ -4,7 +4,7 @@ public interface INode<K> {
 
     K getKey();
 
-    void setKey(K key);
+    void setKey(K key) ;
 
     INode<K> getNext();
 
